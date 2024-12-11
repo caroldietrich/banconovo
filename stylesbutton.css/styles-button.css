@@ -1,0 +1,1102 @@
+:root {
+    --roxo1: #7A1CAC; /* Gradiente roxo */
+    --roxo2: #AD49E1;
+    --cor-fonte: #ffffff;
+    --roxo3: rgba(138, 43, 226, 0.6);
+}
+
+.button {
+    padding: 20px; /* Botão maior */
+    background: var(--roxo2);
+    border: none;
+    color: var(--cor-fonte);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px; /* Texto maior no botão */
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+    align-items: center;
+}
+
+.button:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button:active {
+    transform: translateY(1px);
+}
+
+/* contas cadastradas */
+.button-cadastradas {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 20px 70px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-cadastradas:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-cadastradas span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-cadastradas {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: auto;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* copia e cola pix */
+.button-copia {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 20px 40px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-copia:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-copia span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-copia {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* transferencias */
+.button1 {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 30px 90px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button1:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button1 span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button1 {
+    width: 50%;
+    text-transform: uppercase;
+    margin-top: 0.75rem;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    background-color: var(--roxo3);
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.button2 {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 30px 90px;
+    width: 100px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button2:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button2 span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button2 {
+    width: 50%;
+    text-transform: uppercase;
+    margin-top: 0.75rem;
+    outline: none;
+    height: 60px;
+    text-align: center;
+    width: 130px;
+    background-color: var(--roxo3);
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.button3 {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 30px 90px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button3:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button3 span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button3 {
+    width: 50%;
+    text-transform: uppercase;
+    margin-top: 0.75rem;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    background-color: var(--roxo3);
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+/* login */
+.button-login {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 20px 40px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-login:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-login span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-login {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* historico transferencia */
+.button-history {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 40px 80px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-history:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-history span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-history {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: auto;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* inicio */
+.navigate-button {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 20px 40px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.navigate-button:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.navigate-button span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.navigate-button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove preenchimentos */
+}
+
+/* numero cpf pix */
+.button-cpf-pix {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 20px 40px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-cpf-pix:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-cpf-pix span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-cpf-pix {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* criar conta */
+.button-criar {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 20px 40px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-criar:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-criar span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-criar {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: auto;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* dashbord */
+.button4 {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 10px 10px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button4:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button4 span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button4 {
+    width: 50%;
+    text-transform: uppercase;
+    margin-top: 0.75rem;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    background-color: var(--roxo3);
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.button5 {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 10px 10px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button5:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button5 span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button5 {
+    width: 50%;
+    text-transform: uppercase;
+    margin-top: 0.75rem;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    background-color: var(--roxo3);
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.button6 {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 10px 10px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button6:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button6 span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button6 {
+    width: 50%;
+    text-transform: uppercase;
+    margin-top: 0.75rem;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    background-color: var(--roxo3);
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+/* escqueci minha senha */
+.button-link1 {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 25px 70px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-link1:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-link1 span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-link1 {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: auto;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* fazer pix */
+.button7 {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 20px 40px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button7:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button7 span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button7 {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.button8 {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 20px 40px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button8:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button8 span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button8 {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.button9 {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 20px 40px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button9:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button9 span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button9 {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: auto;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.button10 {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 20px 40px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button10:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button10 span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button10 {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* gerenciar contas */
+.button-adicionar {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 20px 40px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-adicionar:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-adicionar span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-adicionar {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: auto;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.button-editar {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 8px 8px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-editar:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-editar span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-editar {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.button-excluir {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 8px 8px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-excluir:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-excluir span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-excluir {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* index */
+.button-email {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 8px 8px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-email:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-email span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-email {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* nova conta */
+.button-nova {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 8px 8px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-nova:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-nova span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-nova {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* pagar pix */
+.button-pagar {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 8px 8px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-pagar:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-pagar span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-pagar {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: auto;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* pix compia e cola */
+.button-pix {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 8px 8px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-pix:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-pix span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-pix {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: auto;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* receber pix */
+.button-receber {
+    font-size: 32px; /* Tamanho maior para a flecha */
+    padding: 8px 8px;
+    background: linear-gradient(145deg, var(--roxo2), var(--roxo1));
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button-receber:hover {
+    box-shadow: 0 5px 15px var(--roxo3);
+    transform: translateY(-3px);
+}
+
+.button-receber span {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.button-receber {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: auto;
+  background-color: var(--roxo3);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+}

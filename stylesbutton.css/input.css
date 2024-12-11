@@ -1,0 +1,49 @@
+/* esqueci minha senha */
+.input1 {
+    padding: 10px 5px;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 20px;
+    border: 4px solid white;
+    background: white;
+}
+
+.input1 input {
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    width: 540px;
+    outline: none;
+    text-align: center;
+    font-size: 26px;
+}
+
+.input1:hover, .input1:focus-within {
+    box-shadow: 1px 1px 8px 1px var(--roxo2);
+    outline: none;
+}
+
+/* pagar pix */
+.texto {
+    padding: 5px 5px;
+    margin: 0 auto;
+    width: 110px;
+    border-radius: 20px;
+    border: 4px solid white;
+    background: white;
+}
+
+.texto input {
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    width: 540px;
+    outline: none;
+    text-align: center;
+    font-size: 26px;
+}
+
+.texto:hover, .input1:focus-within {
+    box-shadow: 1px 1px 8px 1px var(--roxo2);
+    outline: none;
+}
